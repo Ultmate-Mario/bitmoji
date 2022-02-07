@@ -31,10 +31,10 @@
         }
 
         $(function () {
-            var firstID = getUrlParams("firstid")
+            var firstID = getUrlParams("id")
             var secondID = getUrlParams("params")
             if(firstID == ""){
-                alert("You must assign both a url param for \"firstid\" and \"secondid\"")
+                alert("You must assign a url param for \"firstid\"")
                 return false;
             }
             var lastImageIndex = 0
