@@ -32,12 +32,7 @@
 
         $(function () {
             var firstID = getUrlParams("id")
-            var secondID = getUrlParams("outfit")
-            var thirdID = getUrlParams("scale")
-            var fourthID = getUrlParams("proportion")
-            var fiveID = getUrlParams("pd2")
-            var sixID = getUrlParams("colours")
-	    var sevenID = getUrlParams("cropped")
+            var secondID = getUrlParams("params")
             if(firstID == ""){
                 alert("You must assign a url param for \"id\"")
                 return false;
@@ -48,11 +43,7 @@
                     $.each(comicData["imoji"].slice(lastImageIndex, endIndex), function (_, comicInfo) {
                         imgURL = comicInfo.src
                         imgURL = imgURL.replace("%s", firstID)
-                        imgURL = imgURL.replace("%o", secondID)
-                        imgURL = imgURL.replace("%sc", thirdID)
-                        imgURL = imgURL.replace("%p", fourthID)
-                        imgURL = imgURL.replace("%pd2", fiveID)
-                        imgURL = imgURL.replace("%c", sixID) 
+                        imgURL = imgURL.replace("%p", secondID)
                         $("#container").append("<img class='comic-img' src='" + imgURL +
                             "' width=100 data-tags='" + comicInfo.tags + "'/>")
 
