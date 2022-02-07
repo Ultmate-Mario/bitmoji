@@ -55,7 +55,7 @@
             }
             var activeImages = 0
             var waitToLoad = 0;
-            $.getJSON("https://raw.githubusercontent.com/Ultmate-Mario/bitmoji/master/api.json", function (data) {
+            $.getJSON("api.json", function (data) {
                 displayImages(data, 80)
                 searchFilter = function () {
                     displayImages(data, data["imoji"].length - 1)
