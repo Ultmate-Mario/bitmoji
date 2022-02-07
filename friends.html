@@ -40,7 +40,7 @@
             var lastImageIndex = 0
             var displayImages = function (comicData, endIndex) {
                 if (endIndex < comicData["imoji"].length) {
-                    $.each(comicData["friends"].slice(lastImageIndex, endIndex), function (_, comicInfo) {
+                    $.each(comicData["imoji "].slice(lastImageIndex, endIndex), function (_, comicInfo) {
                         imgURL = comicInfo.src
                         imgURL = imgURL.replace("%s", firstID)
                         imgURL = imgURL.replace("%s", secondID)
