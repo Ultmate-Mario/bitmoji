@@ -1,12 +1,12 @@
 ## Generating and searching bitmojis
 
-To use the [single bitmoji comic grid](https://ultmate-mario.github.io/bitmoji/imoji.html?id=128257004_1_s1) you'll need your bitmoji ID. Should be like this: https://ultmate-mario.github.io/bitmoji/imoji.html?id=IDHERE
+To use the [single bitmoji comic grid](https://ultmate-mario.github.io/bitmoji-grid/imoji.html?id=128257004_1_s1) you'll need your bitmoji ID. Should be like this: https://ultmate-mario.github.io/bitmoji-grid/imoji.html?id=IDHERE
 
-In order to use the [friendmoji grid](https://jpoles1.github.io/bitmoji/friends.html?firstid=128256895_1-s1&secondid=128257004_1_s1) you will need your ID and that of a friend (or you can use your own ID twice!). Substitute your ids in here: https://ultmate-mario.github.io/bitmoji/friends.html?firstid=IDHERE&secondid=IDHERE.
+In order to use the [friendmoji grid](https://jpoles1.github.io/bitmoji/friends.html?firstid=128256895_1-s1&secondid=128257004_1_s1) you will need your ID and that of a friend (or you can use your own ID twice!). Substitute your ids in here: https://ultmate-mario.github.io/bitmoji-grid/friends.html?firstid=IDHERE&secondid=IDHERE.
 
 ## Advanced Bitmoji Render Grid
 
-Using the [advanced bitmoji grid](https://ultmate-mario.github.io/bitmoji/render-api/imoji.html?id=128257004_1_s1&outfit=1018062&pd2="hat":"_blank"&scale=4) also requires your bitmoji ID. Although not all parameters work in the grid, they can be used after opening an image in new tab. Not all parameters are required. Note: All comic graphics and text are not there for the advanced grid.
+Using the [advanced bitmoji grid](https://ultmate-mario.github.io/bitmoji-grid/advanced/imoji.html?id=128257004_1_s1&outfit=1018062&pd2="hat":"_blank"&scale=4) also requires your bitmoji ID. Although not all parameters work in the grid, they can be used after opening an image in new tab. Not all parameters are required. Note: All comic graphics and text are not there for the advanced grid.
 
 Available parameters for the grid are `outfit, scale, proportion, pd2, and colours`.
 
