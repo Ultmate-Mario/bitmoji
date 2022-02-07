@@ -20,10 +20,10 @@
         function getUrlParams(prop) {
             var params = {};
             var search = decodeURIComponent(window.location.href.slice(window.location.href.indexOf('?') + 1));
-            var definitions = search.split('&');
+            var definitions = search.split('#');
 
             definitions.forEach(function (val, key) {
-                var parts = val.split('=', 2);
+                var parts = val.split('-', 2);
                 params[parts[0]] = parts[1];
             });
 
@@ -53,9 +53,6 @@
                         imgURL = imgURL.replace("%p", fourthID)
                         imgURL = imgURL.replace("%pd2", fiveID)
                         imgURL = imgURL.replace("%c", sixID) 
-			if(sevenID == "body"){
-                imgURL = imgURL.append("&cropped=/"body/"")
-            }
                         $("#container").append("<img class='comic-img' src='" + imgURL +
                             "' width=100 data-tags='" + comicInfo.tags + "'/>")
 
