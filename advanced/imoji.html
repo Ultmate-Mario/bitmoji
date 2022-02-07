@@ -54,7 +54,7 @@
                         imgURL = imgURL.replace("%pd2", fiveID)
                         imgURL = imgURL.replace("%c", sixID) 
 			if(sevenID == "body"){
-                imgURL = imgURL.add("&cropped=/"body/"")
+                imgURL = imgURL.append("&cropped=/"body/"")
             }
                         $("#container").append("<img class='comic-img' src='" + imgURL +
                             "' width=100 data-tags='" + comicInfo.tags + "'/>")
