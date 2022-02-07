@@ -6,9 +6,9 @@ In order to use the [friendmoji grid](https://jpoles1.github.io/bitmoji/friends.
 
 ## Advanced Bitmoji Render Grid
 
-Using the [advanced bitmoji grid](https://ultmate-mario.github.io/bitmoji-grid/advanced/imoji.html?id=128257004_1_s1&outfit=1018062&pd2="hat":"_blank"&scale=4) also requires your bitmoji ID. Although not all parameters work in the grid, they can be used after opening an image in new tab. Not all parameters are required. Note: All comic graphics and text are not there for the advanced grid.
+Using the [advanced bitmoji grid](https://ultmate-mario.github.io/bitmoji-grid/advanced/imoji.html?id;128257004_1_s1+params;outfit=1018062&pd2={"hat":"_blank"}&scale=4) also requires your bitmoji ID. Note: All comic graphics and text are not there for the advanced grid. Instead of `id=IDHERE`, its `id;IDHERE` and all Params go under `+param;`.
 
-Available parameters for the grid are `outfit, scale, proportion, pd2, and colours`.
+Example link: https://ultmate-mario.github.io/bitmoji-grid/advanced/imoji.html?id;IDHERE+params;PARAMSHERE
 
 More documentation [here](https://github.com/matthewnau/randmoji).
 
