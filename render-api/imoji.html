@@ -31,7 +31,7 @@
         }
 
         $(function () {
-            var firstID = getUrlParams("firstid")
+            var firstID = getUrlParams("id")
             var secondID = getUrlParams("outfit")
 			var 3ID = getUrlParams("scale")
 			var 4ID = getUrlParams("proportion")
@@ -48,10 +48,10 @@
                         imgURL = comicInfo.src
                         imgURL = imgURL.replace("%s", firstID)
                         imgURL = imgURL.replace("%o", secondID)
-						imgURL = imgURL.replace("%sc", 3ID)
-						imgURL = imgURL.replace("%p", 4ID)
-						imgURL = imgURL.replace("%pd2", 5ID)
-						imgURL = imgURL.replace("%c", 6ID) 
+			imgURL = imgURL.replace("%sc", 3ID)
+			imgURL = imgURL.replace("%p", 4ID)
+			imgURL = imgURL.replace("%pd2", 5ID)
+			imgURL = imgURL.replace("%c", 6ID) 
                         $("#container").append("<img class='comic-img' src='" + imgURL +
                             "' width=100 data-tags='" + comicInfo.tags + "'/>")
 
